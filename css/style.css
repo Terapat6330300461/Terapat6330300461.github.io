@@ -1,0 +1,66 @@
+body {
+    margin: 0 auto;
+    background-color: #222222;
+}
+
+
+.cover-image {
+    margin-top: 20px;
+    width: 440px;
+
+}
+
+.title-text {
+    font-size: 35px;
+    color: hotpink;
+
+}
+
+.paragraph-text {
+    font-size: 24.5px;
+    color: white;
+
+}
+
+.go-button {
+    background-color: hotpink;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+@media (max-width: 720px) {
+    .cover-image {
+        width: 320px;
+    }
+
+    .title-text {
+        font-size: 25px;
+        color: hotpink;
+    }
+
+    .paragraph-text {
+        font-size: 18px;
+        color: white;
+
+    }
+}
